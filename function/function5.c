@@ -6,6 +6,7 @@ int main(){
     
     printf("Enter the value :");
     scanf("%f", &value);
+    printf("Value %f \n", value);
 
     calculatePrice(value);
     return 0;
@@ -13,5 +14,5 @@ int main(){
 
 void calculatePrice(float value){
     value = value + (0.18 * value);
-    printf("%f", value);
+    printf("Vat + value : %f", value);
 }
