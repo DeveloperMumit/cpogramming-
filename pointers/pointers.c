@@ -9,7 +9,7 @@ int main(){
     p = &a;
     q = &b;
     
-    // print pointer
+    // print pointer checking
     printf("value of a %d \n", a);
     printf("value of a %d\n", *p);
 
