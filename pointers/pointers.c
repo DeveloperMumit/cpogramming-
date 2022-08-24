@@ -9,6 +9,7 @@ int main(){
     p = &a;
     q = &b;
 
+    // check the commit
     printf("value of a %d \n", a);
     printf("value of a %d\n", *p);
 
