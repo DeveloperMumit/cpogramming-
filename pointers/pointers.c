@@ -8,7 +8,8 @@ int main(){
     int *p, *q;
     p = &a;
     q = &b;
-
+    
+    // print pointer
     printf("value of a %d \n", a);
     printf("value of a %d\n", *p);
 
